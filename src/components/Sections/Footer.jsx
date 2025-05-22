@@ -23,7 +23,7 @@ export default function Contact() {
               </h1>
             </Link>
             <div style={{
-              display: 'flex', flexDirection: 'row', gap: "12px", paddingTop: '12px', position: 'absolute', position: 'absolute',
+              display: 'flex', flexDirection: 'row', gap: "12px", paddingTop: '12px', position: 'absolute',
               left: '50%',
               transform: 'translateX(-50 %)',
               width: '200px',

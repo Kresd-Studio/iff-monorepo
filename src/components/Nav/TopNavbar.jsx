@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
-import { LuPhoneCall, LuDownload } from "react-icons/lu";
 // Components
 import Sidebar from "../Nav/Sidebar";
 import Backdrop from "../Elements/Backdrop";
@@ -97,10 +96,4 @@ const UlWrapper = styled.ul`
     display: none;
   }
 `;
-const UlWrapperRight = styled.ul`
-  @media (max-width: 760px) {
-    display: none;
-  }
-`;
-
 
