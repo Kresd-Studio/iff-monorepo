@@ -6,6 +6,7 @@ import "./style/flexboxgrid.min.css";
 import './style/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './i18n';
 
 ReactDOM.render(
   <>

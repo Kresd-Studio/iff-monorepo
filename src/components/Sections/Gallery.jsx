@@ -9,18 +9,18 @@ import img3 from "../../assets/img/gallery/3.png";
 import img4 from "../../assets/img/gallery/4.png";
 import img5 from "../../assets/img/gallery/5.png";
 import img6 from "../../assets/img/gallery/6.png";
+import { useTranslation } from "react-i18next";
 
 export default function Gallery() {
+  const { t } = useTranslation();
   return (
     <Wrapper id="gallery">
       <div className="whiteBg" style={{ paddingBottom: "100px" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Galeri</h1>
+            <h1 className="font40 extraBold">{t('gallery.title')}</h1>
             <p className="font20">
-              Galeri ini menampilkan berbagai dokumentasi visual dari perjalanan, kegiatan, 
-              <br/>
-              dan karya yang menjadi bagian dari identitas kami.
+              {t('gallery.subTitle')}
             </p>
           </HeaderInfo>
           <div className="row textCenter">

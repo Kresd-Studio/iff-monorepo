@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { LuPhoneCall, LuDownload } from "react-icons/lu";
+import { useTranslation } from "react-i18next";
 // Components
 import FullButton from "../Buttons/FullButton";
 import ProjectBox from "../Elements/ProjectBox";
@@ -15,24 +16,24 @@ import teamImg2 from "../../assets/img/about/tim2.png";
 import teamImg3 from "../../assets/img/about/tim3.png";
 
 export default function About() {
+  const { t } = useTranslation();
   return (
     <Wrapper id="about">
       <div className="whiteBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <Advertising className="flexSpaceCenter">
             <AddLeft>
-              <h4 className="font18 semiBold">Sekilas tentang kami</h4>
-              <h2 className="font40 extraBold">#IkanAsinBanggaLokal</h2>
+              <h4 className="font18 semiBold">{t('about.info')}</h4>
+              <h2 className="font40 extraBold">{t('about.title')}</h2>
               <p className="font20">
-                PT. Indonesian Framing Family adalah usaha mikro kecil dan menengah (UMKM) yang bergerak di bidang pengolahan ikan asin tradisional khas Indonesia. 
-                Kami berdiri sejak tahun 2023, dengan semangat untuk memperkenalkan kembali rasa khas laut Nusantara ke seluruh penjuru negeri.
+                {t('about.subTitle')}
               </p>
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
-                <div style={{ width: "190px" }}>
-                  <FullButton icon={<LuDownload/>} title="Unduh Katalog" action={() => alert("clicked")} />
+                <div style={{ width: "200px" }}>
+                  <FullButton icon={<LuDownload />} title={t('catalogueBtnTxt')} action={() => window.open('https://pdfobject.com/pdf/sample.pdf', '_blank')} />
                 </div>
-                <div style={{ width: "190px", marginLeft: "15px" }}>
-                  <FullButton icon={<LuPhoneCall/>} title="Hubungi Kami" action={() => alert("clicked")} border />
+                <div style={{ width: "200px", marginLeft: "15px" }}>
+                  <FullButton icon={<LuPhoneCall />} title={t('contactBtnTxt')} action={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })} border />
                 </div>
               </ButtonsRow>
             </AddLeft>
@@ -62,31 +63,31 @@ export default function About() {
       <div className="lightBg" style={{ padding: "60px 0" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Tim Kami</h1>
+            <h1 className="font40 extraBold">{t('team.title')}</h1>
             <p className="font20">
-              Kami pilih hanya ikan terbaik, hasil akhirnya pun luar biasa.
+              {t('team.subTitle')}
             </p>
           </HeaderInfo>
           <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={teamImg1}
-                title="John Doe"
-                text="Direktur Utama"
+                title={t('team.persons.person1.name')}
+                text={t('team.persons.person1.position')}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={teamImg2}
-                title="Rebecca Zenner"
-                text="Manager Umum"
+                title={t('team.persons.person2.name')}
+                text={t('team.persons.person2.position')}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
                 img={teamImg3}
-                title="Ali Mu'alim"
-                text="Manager Marketing"
+                title={t('team.persons.person3.name')}
+                text={t('team.persons.person3.position')}
               />
             </div>
           </div>

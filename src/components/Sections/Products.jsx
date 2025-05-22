@@ -1,85 +1,81 @@
 import React from "react";
 import styled from "styled-components";
 import { LuDownload } from "react-icons/lu";
+import { useTranslation } from 'react-i18next';
+import { useNavigate } from "react-router-dom";
 // Components
 import ProjectBox from "../Elements/ProjectBox";
 import FullButton from "../Buttons/FullButton";
-// Assets
-import productImg1 from "../../assets/img/products/1.png";
-import productImg2 from "../../assets/img/products/2.png";
-import productImg3 from "../../assets/img/products/3.png";
-import productImg4 from "../../assets/img/products/4.png";
-import productImg5 from "../../assets/img/products/5.png";
-import productImg6 from "../../assets/img/products/6.png";
 
 export default function Products() {
+  const { t } = useTranslation();
+  const navigate = useNavigate();
+
   return (
     <Wrapper id="products">
       <div className="whiteBg" style={{ paddingTop: "60px" }}>
         <div className="container">
           <HeaderInfo>
-            <h1 className="font40 extraBold">Produk Kami</h1>
+            <h1 className="font40 extraBold">{t('products.title')}</h1>
             <p className="font20">
-              Kami pilih hanya ikan terbaik, hasil akhirnya pun luar biasa.
-              <br />
-              Setiap ikan melalui proses seleksi ketat sebelum diasinkan. Tekstur renyah, rasa pas, dan aroma khas yang menggoda.
+              {t('products.subTitle')}
             </p>
           </HeaderInfo>
           <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={productImg1}
-                title="Ikan Asin Jambal Roti"
-                text="Ikan asin premium dari ikan manyung. Teksturnya tebal, dagingnya padat, dan rasanya gurih. Biasanya digoreng kering atau dimasak balado."
-                action={() => alert("clicked")}
+                img={t('products.product1.imgSrc')}
+                title={t('products.product1.name')}
+                text={t('products.product1.description')}
+                action={() => navigate(`/product/${t('products.product1.id')}`)}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={productImg2}
-                title="Ikan Asin Peda"
-                text="Dibuat dari ikan kembung atau ikan peda, berwarna keperakan. Rasanya asin-gurih, sering dijadikan lauk pendamping nasi panas dan sambal."
-                action={() => alert("clicked")}
+                img={t('products.product2.imgSrc')}
+                title={t('products.product2.name')}
+                text={t('products.product2.description')}
+                action={() => navigate(`/product/${t('products.product2.id')}`)}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={productImg3}
-                title="Ikan Asin Teri"
-                text="Ikan asin kecil-kecil berwarna putih atau keabu-abuan. Digunakan dalam sambal teri, tumisan, atau sebagai topping nasi goreng."
-                action={() => alert("clicked")}
+                img={t('products.product3.imgSrc')}
+                title={t('products.product3.name')}
+                text={t('products.product3.description')}
+                action={() => navigate(`/product/${t('products.product3.id')}`)}
               />
             </div>
           </div>
           <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={productImg4}
-                title="Ikan Asin Gabus"
-                text="Terbuat dari ikan gabus kering, dagingnya padat dan empuk. Umumnya digoreng dan disajikan dengan sambal hijau atau sambal ijo."
-                action={() => alert("clicked")}
+                img={t('products.product4.imgSrc')}
+                title={t('products.product4.name')}
+                text={t('products.product4.description')}
+                action={() => navigate(`/product/${t('products.product4.id')}`)}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={productImg5}
-                title="Ikan Asin Sepat"
-                text="Ikan sepat yang diawetkan dengan cara diasinkan dan dikeringkan. Dikenal di daerah Sumatra dan Kalimantan. Gurih dan sedikit amis."
-                action={() => alert("clicked")}
+                img={t('products.product5.imgSrc')}
+                title={t('products.product5.name')}
+                text={t('products.product5.description')}
+                action={() => navigate(`/product/${t('products.product5.id')}`)}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={productImg6}
-                title="Ikan Asin Layur"
-                text="Bentuknya panjang-panjang dan pipih, warnanya keputihan. Dagingnya agak lunak. Cocok digoreng kering atau dibumbu balado."
-                action={() => alert("clicked")}
+                img={t('products.product6.imgSrc')}
+                title={t('products.product6.name')}
+                text={t('products.product6.description')}
+                action={() => navigate(`/product/${t('products.product6.id')}`)}
               />
             </div>
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton icon={<LuDownload />} title="Lihat Katalog" action={() => alert("clicked")} />
+              <FullButton icon={<LuDownload />} title={t('catalogueBtnTxt')} action={() => window.open('https://pdfobject.com/pdf/sample.pdf', '_blank')} />
             </div>
           </div>
         </div>

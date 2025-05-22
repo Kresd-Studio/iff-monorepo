@@ -1,43 +1,50 @@
 import React from "react";
 import styled from "styled-components";
-import { LuPhoneCall } from "react-icons/lu";
-// Components
-import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/hero.png";
-import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
+import { useNavigate, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-export default function Header() {
+export default function Product() {
+  const { id } = useParams();
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
+  const products = t('products', { returnObjects: true });
+
+  const product = Object.values(products).find((p) => String(p.id) === id);
+
+  // Jika tidak ada name (atau field lain), artinya tidak ditemukan
+  React.useEffect(() => {
+    if (!product?.name) {
+      navigate('/not-found', { replace: true });
+    }
+  }, [product, navigate]);
+
+  if (!product?.name) return null; // Hindari render sebelum redirect
+
   return (
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-          <h1 className="extraBold font60">{t('welcome')}</h1>
-          <HeaderP className="font20">
-            {t('subWelcome')}
+          <h1 className="extraBold font60">{product.name}</h1>
+          <HeaderP className="font20" style={{ paddingBottom: '12px', lineHeight: '150%' }}>
+            {product.description}
           </HeaderP>
-          <BtnWrapper>
-            <FullButton icon={<LuPhoneCall />} title={t('contactBtnTxt')} action={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })} />
-          </BtnWrapper>
+          <div class="product-description" className="font20">
+            <ul>
+              {product.specification.map((item) => <li>• <strong>{item.title}:</strong> {item.value}</li>)}
+            </ul>
+            <h2 className="extraBold font20" style={{ paddingTop: '12px' }}>Keunggulan Produk</h2>
+            <ul>
+              {product.advantage.map((item) => <li>• {item}</li>)}
+            </ul>
+          </div>
         </div>
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{ zIndex: 9 }} />
-          <QuoteWrapper className="flexCenter greyBg radius8">
-            <QuotesWrapper>
-              <QuotesIcon />
-            </QuotesWrapper>
-            <div>
-              <p className="font15 whiteColor">
-                <em>{t('testimoni')}</em>
-              </p>
-              <p className="font15 orangeColor textRight" style={{ marginTop: '10px' }}>{t('testimoniAuthor')}</p>
-            </div>
-          </QuoteWrapper>
+          <Img className="radius8" src={product.imgSrc} width={426} height={607} alt="office" style={{ zIndex: 9 }} />
           <DotsWrapper>
             <Dots />
           </DotsWrapper>
@@ -45,6 +52,7 @@ export default function Header() {
         <GreyDiv className="lightBg"></GreyDiv>
       </RightSide>
     </Wrapper>
+
   );
 }
 
@@ -89,12 +97,6 @@ const HeaderP = styled.div`
     max-width: 100%;
   }
 `;
-const BtnWrapper = styled.div`
-  max-width: 190px;
-  @media (max-width: 960px) {
-    margin: 0 auto;
-  }
-`;
 const GreyDiv = styled.div`
   width: 30%;
   height: 700px;
@@ -121,25 +123,6 @@ const Img = styled.img`
     width: 80%;
     height: auto;
   }
-`;
-const QuoteWrapper = styled.div`
-  position: absolute;
-  left: 0;
-  bottom: 50px;
-  max-width: 330px;
-  padding: 30px;
-  z-index: 99;
-  @media (max-width: 960px) {
-    left: 20px;
-  }
-  @media (max-width: 560px) {
-    bottom: -50px;
-  }
-`;
-const QuotesWrapper = styled.div`
-  position: absolute;
-  left: -20px;
-  top: -10px;
 `;
 const DotsWrapper = styled.div`
   position: absolute;

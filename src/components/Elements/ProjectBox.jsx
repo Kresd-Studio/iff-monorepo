@@ -8,7 +8,7 @@ export default function ProjectBox({ img, title, text, action}) {
         <img className="radius6" src={img} alt="project"></img>
       </ImgBtn>
       <h3 className="font20 semiBold">{title}</h3>
-      <p className="font15">{text}</p>
+      <p className="font15 ellipseTxt">{text}</p>
     </Wrapper>
   );
 }

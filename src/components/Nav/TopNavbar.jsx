@@ -1,16 +1,20 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
-// Components
-import Sidebar from "../Nav/Sidebar";
-import Backdrop from "../Elements/Backdrop";
+
 // Assets
 import LogoIcon from "../../assets/svg/Logo";
-import BurgerIcon from "../../assets/svg/BurgerIcon";
+import { useNavigate } from "react-router-dom";
+import { useLocation } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
+import LanguageToggle from "../Buttons/LanguageToggle";
 
 export default function TopNavbar() {
+  const navigate = useNavigate();
+  const location = useLocation();
   const [y, setY] = useState(window.scrollY);
-  const [sidebarOpen, toggleSidebar] = useState(false);
+
+  const { t, } = useTranslation();
 
   useEffect(() => {
     window.addEventListener("scroll", () => setY(window.scrollY));
@@ -22,46 +26,42 @@ export default function TopNavbar() {
 
   return (
     <>
-      <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
-      {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
       <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
         <NavInner className="container flexSpaceCenter">
-          <Link className="pointer flexNullCenter" to="home" smooth={true}>
+          <Link className="pointer flexNullCenter" to="home" smooth={true} onClick={() => navigate('/')} >
             <LogoIcon />
             <h1 style={{ marginLeft: "15px" }} className="font18 extraBold">
               Indonesia Framing Family
             </h1>
           </Link>
-          <BurderWrapper className="pointer" onClick={() => toggleSidebar(!sidebarOpen)}>
-            <BurgerIcon />
-          </BurderWrapper>
-          <UlWrapper className="flexNullCenter">
+          {location.pathname === '/' && <UlWrapper className="flexNullCenter">
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="home" spy={true} smooth={true} offset={-80}>
-                Beranda
+                {t('menu.home')}
               </Link>
             </li>
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="about" spy={true} smooth={true} offset={-80}>
-                Tentang Kami
+                {t('menu.about')}
               </Link>
             </li>
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="products" spy={true} smooth={true} offset={-80}>
-                Produk
+                {t('menu.product')}
               </Link>
             </li>
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="contact" spy={true} smooth={true} offset={-80}>
-                Kontak
+                {t('menu.contact')}
               </Link>
             </li>
             <li className="semiBold font15 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="gallery" spy={true} smooth={true} offset={-80}>
-                Galeri
+                {t('menu.gallery')}
               </Link>
             </li>
-          </UlWrapper>
+          </UlWrapper>}
+          <LanguageToggle />
         </NavInner>
       </Wrapper>
     </>
@@ -79,17 +79,6 @@ const NavInner = styled.div`
   position: relative;
   height: 100%;
 `
-const BurderWrapper = styled.button`
-  outline: none;
-  border: 0px;
-  background-color: transparent;
-  height: 100%;
-  padding: 0 15px;
-  display: none;
-  @media (max-width: 760px) {
-    display: block;
-  }
-`;
 const UlWrapper = styled.ul`
   display: flex;
   @media (max-width: 760px) {

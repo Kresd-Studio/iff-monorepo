@@ -1,0 +1,237 @@
+{
+  "menu": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "product": "Produk",
+    "contact": "Kontak",
+    "gallery": "Galeri"
+  },
+  "contactBtnTxt": "Kontak",
+  "contactAdminBtnTxt": "Kontak Admin",
+  "catalogueBtnTxt": "Katalog",
+  "welcome": "Kualitas Terbaik, Higienis Modern",
+  "subWelcome": "Kami menjaga standar produksi tinggi. Kualitas adalah prioritas, mulai dari bahan baku, proses pengolahan, hingga kemasan yang rapi dan menarik.",
+  "testimoni": "Rasa gurih yang melekat di lidah, kenangan yang hidup kembali di setiap gigitan.",
+  "testimoniAuthor": "Testimoni Pelanggan Setia",
+  "products": {
+    "title": "Produk Kami",
+    "subTitle": "Kami pilih hanya ikan terbaik, hasil akhirnya pun luar biasa. Setiap ikan melalui proses seleksi ketat sebelum diasinkan. Tekstur renyah, rasa pas, dan aroma khas yang menggoda.",
+    "product1": {
+      "id": 1,
+      "name": "Ikan Asin Jambal",
+      "imgSrc": "https://i.imgur.com/zw2uBGV.png",
+      "description": "Ikan Asin ini berasal dari ikan manyung (Arius thalassinus), yang banyak ditemukan di perairan pantai utara Pulau Jawa, khususnya di daerah Indramayu, Cirebon, dan Tegal. Nama ini muncul karena potongan daging ikan yang tebal dan padat menyerupai roti tawar. Produk ini sudah lama dikenal sebagai salah satu lauk khas Nusantara dengan cita rasa gurih dan asin yang nikmat.",
+      "specification": [
+        {
+          "title": "Berat Bersih",
+          "value": "500 gr"
+        },
+        {
+          "title": "Jenis Ikan",
+          "value": "500 gr"
+        },
+        {
+          "title": "Asal",
+          "value": "Indramayu, Jawa Barat"
+        },
+        {
+          "title": "Kemasan",
+          "value": "Vakum pack food grade"
+        }
+      ],
+      "advantage": [
+        "Daging ikan tebal dan tidak mudah hancur saat dimasak",
+        "Rasa asin alami, tidak terlalu menyengat",
+        "Cocok untuk berbagai masakan: digoreng, sambal, atau balado",
+        "Tahan lama bila disimpan di freezer atau tempat sejuk",
+        "Diproses secara tradisional dan higienis tanpa bahan pengawet"
+      ]
+    },
+    "product2": {
+      "id": 2,
+      "name": "Ikan Asin Peda",
+      "imgSrc": "https://i.imgur.com/ipFm8yh.png",
+      "description": "Ikan Asin ini berasal dari ikan manyung (Arius thalassinus), yang banyak ditemukan di perairan pantai utara Pulau Jawa, khususnya di daerah Indramayu, Cirebon, dan Tegal. Nama ini muncul karena potongan daging ikan yang tebal dan padat menyerupai roti tawar. Produk ini sudah lama dikenal sebagai salah satu lauk khas Nusantara dengan cita rasa gurih dan asin yang nikmat.",
+      "specification": [
+        {
+          "title": "Berat Bersih",
+          "value": "500 gr"
+        },
+        {
+          "title": "Jenis Ikan",
+          "value": "500 gr"
+        },
+        {
+          "title": "Asal",
+          "value": "Indramayu, Jawa Barat"
+        },
+        {
+          "title": "Kemasan",
+          "value": "Vakum pack food grade"
+        }
+      ],
+      "advantage": [
+        "Daging ikan tebal dan tidak mudah hancur saat dimasak",
+        "Rasa asin alami, tidak terlalu menyengat",
+        "Cocok untuk berbagai masakan: digoreng, sambal, atau balado",
+        "Tahan lama bila disimpan di freezer atau tempat sejuk",
+        "Diproses secara tradisional dan higienis tanpa bahan pengawet"
+      ]
+    },
+    "product3": {
+      "id": 3,
+      "name": "Ikan Asin Teri",
+      "imgSrc": "https://i.imgur.com/7SaCdgE.png",
+      "description": "Ikan Asin ini berasal dari ikan manyung (Arius thalassinus), yang banyak ditemukan di perairan pantai utara Pulau Jawa, khususnya di daerah Indramayu, Cirebon, dan Tegal. Nama ini muncul karena potongan daging ikan yang tebal dan padat menyerupai roti tawar. Produk ini sudah lama dikenal sebagai salah satu lauk khas Nusantara dengan cita rasa gurih dan asin yang nikmat.",
+      "specification": [
+        {
+          "title": "Berat Bersih",
+          "value": "500 gr"
+        },
+        {
+          "title": "Jenis Ikan",
+          "value": "500 gr"
+        },
+        {
+          "title": "Asal",
+          "value": "Indramayu, Jawa Barat"
+        },
+        {
+          "title": "Kemasan",
+          "value": "Vakum pack food grade"
+        }
+      ],
+      "advantage": [
+        "Daging ikan tebal dan tidak mudah hancur saat dimasak",
+        "Rasa asin alami, tidak terlalu menyengat",
+        "Cocok untuk berbagai masakan: digoreng, sambal, atau balado",
+        "Tahan lama bila disimpan di freezer atau tempat sejuk",
+        "Diproses secara tradisional dan higienis tanpa bahan pengawet"
+      ]
+    },
+    "product4": {
+      "id": 4,
+      "name": "Ikan Asin Gabus",
+      "imgSrc": "https://i.imgur.com/7AqEaQg.png",
+      "description": "Ikan Asin ini berasal dari ikan manyung (Arius thalassinus), yang banyak ditemukan di perairan pantai utara Pulau Jawa, khususnya di daerah Indramayu, Cirebon, dan Tegal. Nama ini muncul karena potongan daging ikan yang tebal dan padat menyerupai roti tawar. Produk ini sudah lama dikenal sebagai salah satu lauk khas Nusantara dengan cita rasa gurih dan asin yang nikmat.",
+      "specification": [
+        {
+          "title": "Berat Bersih",
+          "value": "500 gr"
+        },
+        {
+          "title": "Jenis Ikan",
+          "value": "500 gr"
+        },
+        {
+          "title": "Asal",
+          "value": "Indramayu, Jawa Barat"
+        },
+        {
+          "title": "Kemasan",
+          "value": "Vakum pack food grade"
+        }
+      ],
+      "advantage": [
+        "Daging ikan tebal dan tidak mudah hancur saat dimasak",
+        "Rasa asin alami, tidak terlalu menyengat",
+        "Cocok untuk berbagai masakan: digoreng, sambal, atau balado",
+        "Tahan lama bila disimpan di freezer atau tempat sejuk",
+        "Diproses secara tradisional dan higienis tanpa bahan pengawet"
+      ]
+    },
+    "product5": {
+      "id": 5,
+      "name": "Ikan Asin Sepat",
+      "imgSrc": "https://i.imgur.com/gPuBc6H.png",
+      "description": "Ikan Asin ini berasal dari ikan manyung (Arius thalassinus), yang banyak ditemukan di perairan pantai utara Pulau Jawa, khususnya di daerah Indramayu, Cirebon, dan Tegal. Nama ini muncul karena potongan daging ikan yang tebal dan padat menyerupai roti tawar. Produk ini sudah lama dikenal sebagai salah satu lauk khas Nusantara dengan cita rasa gurih dan asin yang nikmat.",
+      "specification": [
+        {
+          "title": "Berat Bersih",
+          "value": "500 gr"
+        },
+        {
+          "title": "Jenis Ikan",
+          "value": "500 gr"
+        },
+        {
+          "title": "Asal",
+          "value": "Indramayu, Jawa Barat"
+        },
+        {
+          "title": "Kemasan",
+          "value": "Vakum pack food grade"
+        }
+      ],
+      "advantage": [
+        "Daging ikan tebal dan tidak mudah hancur saat dimasak",
+        "Rasa asin alami, tidak terlalu menyengat",
+        "Cocok untuk berbagai masakan: digoreng, sambal, atau balado",
+        "Tahan lama bila disimpan di freezer atau tempat sejuk",
+        "Diproses secara tradisional dan higienis tanpa bahan pengawet"
+      ]
+    },
+    "product6": {
+      "id": 6,
+      "name": "Ikan Asin Layur",
+      "imgSrc": "https://i.imgur.com/O9ks7Tx.png",
+      "description": "Ikan Asin ini berasal dari ikan manyung (Arius thalassinus), yang banyak ditemukan di perairan pantai utara Pulau Jawa, khususnya di daerah Indramayu, Cirebon, dan Tegal. Nama ini muncul karena potongan daging ikan yang tebal dan padat menyerupai roti tawar. Produk ini sudah lama dikenal sebagai salah satu lauk khas Nusantara dengan cita rasa gurih dan asin yang nikmat.",
+      "specification": [
+        {
+          "title": "Berat Bersih",
+          "value": "500 gr"
+        },
+        {
+          "title": "Jenis Ikan",
+          "value": "500 gr"
+        },
+        {
+          "title": "Asal",
+          "value": "Indramayu, Jawa Barat"
+        },
+        {
+          "title": "Kemasan",
+          "value": "Vakum pack food grade"
+        }
+      ],
+      "advantage": [
+        "Daging ikan tebal dan tidak mudah hancur saat dimasak",
+        "Rasa asin alami, tidak terlalu menyengat",
+        "Cocok untuk berbagai masakan: digoreng, sambal, atau balado",
+        "Tahan lama bila disimpan di freezer atau tempat sejuk",
+        "Diproses secara tradisional dan higienis tanpa bahan pengawet"
+      ]
+    }
+  },
+  "about": {
+    "info": "Sekilas tentang kami",
+    "title": "#BanggaProdukLokal",
+    "subTitle": "PT. Indonesian Framing Family adalah usaha mikro kecil dan menengah (UMKM) yang bergerak di bidang pengolahan ikan asin tradisional khas Indonesia. Kami berdiri sejak tahun 2023, dengan semangat untuk memperkenalkan kembali rasa khas laut Nusantara ke seluruh penjuru negeri."
+  },
+  "team": {
+    "title": "Tim Kami",
+    "subTitle": "Mari berkenalan dengan para pendiri di PT. Indonesian Framing Family",
+    "persons": {
+      "person1": {
+        "name": "John Doe",
+        "position": "Direktur Utama"
+      },
+      "person2": {
+        "name": "Rebecca Zenner",
+        "position": "Manajer Umum"
+      },
+      "person3": {
+        "name": "Ali Mu'alim",
+        "position": "Manajer Pemasaran"
+      }
+    }
+  },
+  "contact": {
+    "info": "Ingin tahu lebih lanjut?",
+    "title": "Kontak Kami"
+  },
+  "gallery": {
+    "title": "Galeri",
+    "subTitle": "Galeri ini menampilkan berbagai dokumentasi visual dari perjalanan, kegiatan, dan karya yang menjadi bagian dari identitas kami."
+  }
+}

@@ -2,11 +2,13 @@ import React from "react";
 import { LuMapPin, LuPhoneCall, LuMail } from "react-icons/lu";
 import { FaWhatsapp, } from "react-icons/fa";
 import styled from "styled-components";
+import { useTranslation } from "react-i18next";
 // Components
 import FullButton from "../Buttons/FullButton";
 import contactImg from "../../assets/img/contact.png";
 
 export default function Contact() {
+  const { t } = useTranslation();
   return (
     <Wrapper id="contact">
       <div className="lightBg">
@@ -20,18 +22,18 @@ export default function Contact() {
               </AddLeftInner>
             </AddLeft>
             <AddRight>
-              <h4 className="font18 semiBold">Ingin tahu lebih lanjut?</h4>
-              <h2 className="font40 extraBold">Kontak Kami</h2>
+              <h4 className="font18 semiBold">{t('contact.info')}</h4>
+              <h2 className="font40 extraBold">{t('contact.title')}</h2>
               <div style={{ display: 'flex', flexDirection: 'column', gap: "4px", paddingTop: '12px' }}>
-                <a href="https://facebook.com" className="verticalCenter gap8 font18"><LuPhoneCall />088707002943</a>
-                <a href="https://facebook.com" className="verticalCenter gap8 font18"><LuMail /> contact@email.com</a>
-                <a href="https://facebook.com" className="verticalCenter gap8 font18"><LuMapPin className="font30" /> Jl. Yos Sudarso, Hanura, Kecamatan Teluk Pandan, Kabupaten Pesawaran, Lampung 35450</a>
+                <a href="tel:088707002943" className="verticalCenter gap8 font18"><LuPhoneCall />088707002943</a>
+                <a href="mailto:contact@email.com" className="verticalCenter gap8 font18"><LuMail /> contact@email.com</a>
+                <a href="https://maps.app.goo.gl/f9W2uNjZEQTb61Qj7" style={{ textAlign: 'left' }} target="_blank" className="verticalCenter gap8 font18" rel="noreferrer"><LuMapPin className="font30" /> Jl. Yos Sudarso, Hanura, Kec. Teluk Pandan, Kab. Pesawaran, Lampung</a>
               </div>
 
 
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                 <div style={{ width: "190px" }}>
-                  <FullButton title="Kontak Admin" icon={<FaWhatsapp />} action={() => alert("clicked")} border />
+                  <FullButton title={t('contactAdminBtnTxt')} icon={<FaWhatsapp />} action={() => handleWhatsAppRedirect()} border />
                 </div>
               </ButtonsRow>
             </AddRight>
@@ -41,6 +43,13 @@ export default function Contact() {
     </Wrapper>
   );
 }
+
+const handleWhatsAppRedirect = () => {
+  const phone = '088707002943'; // Nomor WhatsApp tanpa +
+  const message = 'Halo! Saya tertarik dengan produk Anda.';
+  const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+  window.location.href = url; // Inilah redirect-nya
+};
 
 const Wrapper = styled.section`
   width: 100%;
@@ -60,7 +69,7 @@ const Advertising = styled.div`
 `;
 const ButtonsRow = styled.div`
   @media (max-width: 860px) {
-    justify-content: space-between;
+    justify-content: center;
   }
 `;
 const AddLeft = styled.div`
@@ -87,6 +96,14 @@ const AddRight = styled.div`
   @media (max-width: 860px) {
     width: 80%;
     order: 2;
+    text-align: center;
+    h2 {
+      line-height: 3rem;
+      margin: 15px 0;
+    }
+    p {
+      margin: 0 auto;
+    }
   }
 `;
 const AddLeftInner = styled.div`
