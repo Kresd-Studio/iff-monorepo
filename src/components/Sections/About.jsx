@@ -29,7 +29,7 @@ export default function About() {
               </p>
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                 <div style={{ width: "200px" }}>
-                  <FullButton icon={<LuDownload />} title={t('catalogueBtnTxt')} action={() => window.open('https://drive.google.com/file/d/1r8xzo1abnZIf60lnyBfw9VyzUXJit_CF/view?usp=drive_link', '_blank')} />
+                  <FullButton icon={<LuDownload />} title={t('catalogueBtnTxt')} action={() => window.open('https://drive.google.com/file/d/1P2-3OkQwj2B-UdcQ8o79O358gzSrJu4p/view', '_blank')} />
                 </div>
                 <div style={{ width: "200px", marginLeft: "15px" }}>
                   <FullButton icon={<LuPhoneCall />} title={t('contactBtnTxt')} action={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })} border />

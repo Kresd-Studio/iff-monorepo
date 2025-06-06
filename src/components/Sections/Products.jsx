@@ -88,7 +88,7 @@ export default function Products() {
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton icon={<LuDownload />} title={t('catalogueBtnTxt')} action={() => window.open('https://drive.google.com/file/d/1r8xzo1abnZIf60lnyBfw9VyzUXJit_CF/view?usp=drive_link', '_blank')} />
+              <FullButton icon={<LuDownload />} title={t('catalogueBtnTxt')} action={() => window.open('https://drive.google.com/file/d/1P2-3OkQwj2B-UdcQ8o79O358gzSrJu4p/view', '_blank')} />
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ export default function Contact() {
             <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
               <LogoImg />
               <h1 className="font15 semiBold darkColor" style={{ marginLeft: "15px" }}>
-                PT. Indonesian Framing Family
+                PT. Indonesian Farming Family
               </h1>
             </Link>
             <MedsosWrapper>
@@ -33,7 +33,7 @@ export default function Contact() {
               </div>
             </MedsosWrapper>
             <StyleP className="darkColor font15">
-              © {getCurrentYear()} - <span className="darkColor font15">PT. Indonesian Framing Family</span>
+              © {getCurrentYear()} - <span className="darkColor font15">PT. Indonesian Farming Family</span>
             </StyleP>
           </InnerWrapper>
         </div>

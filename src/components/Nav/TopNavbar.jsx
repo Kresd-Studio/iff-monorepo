@@ -31,7 +31,7 @@ export default function TopNavbar() {
           <Link className="pointer flexNullCenter" to="home" smooth={true} onClick={() => navigate('/')} >
             <LogoIcon />
             <h1 style={{ marginLeft: "15px" }} className="font18 extraBold">
-              Indonesia Framing Family
+              Indonesia Farming Family
             </h1>
           </Link>
           {location.pathname === '/' && <UlWrapper className="flexNullCenter">
