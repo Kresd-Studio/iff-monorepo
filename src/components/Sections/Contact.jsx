@@ -1,5 +1,5 @@
 import React from "react";
-import { LuMapPin, LuPhoneCall, LuMail } from "react-icons/lu";
+import { LuMapPin, LuPhoneCall } from "react-icons/lu";
 import { FaWhatsapp, } from "react-icons/fa";
 import styled from "styled-components";
 import { useTranslation } from "react-i18next";
@@ -26,8 +26,7 @@ export default function Contact() {
               <h2 className="font40 extraBold">{t('contact.title')}</h2>
               <div style={{ display: 'flex', flexDirection: 'column', gap: "4px", paddingTop: '12px' }}>
                 <a href="tel:088707002943" className="verticalCenter gap8 font18"><LuPhoneCall />088707002943</a>
-                <a href="mailto:contact@email.com" className="verticalCenter gap8 font18"><LuMail /> contact@email.com</a>
-                <a href="https://maps.app.goo.gl/f9W2uNjZEQTb61Qj7" style={{ textAlign: 'left' }} target="_blank" className="verticalCenter gap8 font18" rel="noreferrer"><LuMapPin className="font30" /> Jl. Yos Sudarso, Hanura, Kec. Teluk Pandan, Kab. Pesawaran, Lampung</a>
+                <a href="https://maps.app.goo.gl/5F3DrfykbdepoHv7A" style={{ textAlign: 'left' }} target="_blank" className="verticalCenter gap8 font18" rel="noreferrer"><LuMapPin className="font24" /> Jl. Hi. Komarudin No.3, Rajabasa Raya, <br/> Kec. Rajabasa, Kota Bandar Lamppung,<br/> Lampung</a>
               </div>
 
 
@@ -45,10 +44,10 @@ export default function Contact() {
 }
 
 const handleWhatsAppRedirect = () => {
-  const phone = '088707002943'; // Nomor WhatsApp tanpa +
+  const phone = '6288707002943';
   const message = 'Halo! Saya tertarik dengan produk Anda.';
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
-  window.location.href = url; // Inilah redirect-nya
+  window.location.href = url;
 };
 
 const Wrapper = styled.section`

@@ -11,9 +11,8 @@ import image2 from "../../assets/img/about/2.png";
 import image3 from "../../assets/img/about/3.png";
 import image4 from "../../assets/img/about/4.png";
 // Assets
-import teamImg1 from "../../assets/img/about/tim1.png";
-import teamImg2 from "../../assets/img/about/tim2.png";
-import teamImg3 from "../../assets/img/about/tim3.png";
+import teamImg1 from "../../assets/img/about/ceo.png";
+import teamImg2 from "../../assets/img/about/coo.png";
 
 export default function About() {
   const { t } = useTranslation();
@@ -30,7 +29,7 @@ export default function About() {
               </p>
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                 <div style={{ width: "200px" }}>
-                  <FullButton icon={<LuDownload />} title={t('catalogueBtnTxt')} action={() => window.open('https://pdfobject.com/pdf/sample.pdf', '_blank')} />
+                  <FullButton icon={<LuDownload />} title={t('catalogueBtnTxt')} action={() => window.open('https://drive.google.com/file/d/1r8xzo1abnZIf60lnyBfw9VyzUXJit_CF/view?usp=drive_link', '_blank')} />
                 </div>
                 <div style={{ width: "200px", marginLeft: "15px" }}>
                   <FullButton icon={<LuPhoneCall />} title={t('contactBtnTxt')} action={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })} border />
@@ -81,13 +80,6 @@ export default function About() {
                 img={teamImg2}
                 title={t('team.persons.person2.name')}
                 text={t('team.persons.person2.position')}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={teamImg3}
-                title={t('team.persons.person3.name')}
-                text={t('team.persons.person3.position')}
               />
             </div>
           </div>

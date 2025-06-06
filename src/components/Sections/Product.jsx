@@ -35,7 +35,7 @@ export default function Product() {
             <ul>
               {product.specification.map((item) => <li>• <strong>{item.title}:</strong> {item.value}</li>)}
             </ul>
-            <h2 className="extraBold font20" style={{ paddingTop: '12px' }}>Keunggulan Produk</h2>
+            <h2 className="extraBold font20" style={{ paddingTop: '12px' }}>{t('products.benefitTittle')}</h2>
             <ul>
               {product.advantage.map((item) => <li>• {item}</li>)}
             </ul>

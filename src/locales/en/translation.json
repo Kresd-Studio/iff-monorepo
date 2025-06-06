@@ -16,190 +16,208 @@
   "products": {
     "title": "Our Product",
     "subTitle": "We select only the best fish, and the end result is outstanding. Each fish goes through a rigorous selection process before being marinated. Crispy texture, just the right flavour, and a tantalising aroma.",
+    "benefitTittle": "Product Benefit",
     "product1": {
       "id": 1,
-      "name": "Ikan Asin Jambal",
-      "imgSrc": "https://i.imgur.com/zw2uBGV.png",
-      "description": "This salted fish comes from manyung fish (Arius thalassinus), which is commonly found in the waters of the north coast of Java Island, especially in the Indramayu, Cirebon and Tegal areas. The name jambal roti came about because the thick and dense pieces of fish meat resemble fresh bread. This product has long been known as one of the Nusantara's signature side dishes with a delicious savoury and salty taste.",
+      "name": "Teri Nasi/Medan",
+      "imgSrc": "https://i.imgur.com/Qj5nQbT.png",
+      "description": "Tiny white anchovies with a crisp texture when fried. Commonly used in sambal (spicy relish), fried rice, or as a crunchy side dish.",
       "specification": [
         {
-          "title": "Berat Bersih",
-          "value": "500 gr"
+          "title": "Net Weight",
+          "value": "±250 gram / pack"
         },
         {
-          "title": "Jenis Ikan",
-          "value": "500 gr"
+          "title": "Fish Type",
+          "value": "Small anchovy"
         },
         {
-          "title": "Asal",
-          "value": "Indramayu, Jawa Barat"
+          "title": "Origin",
+          "value": "Medan, North Sumatra"
         },
         {
-          "title": "Kemasan",
+          "title": "Packaging",
           "value": "Vakum pack food grade"
         }
       ],
       "advantage": [
-        "The fish meat is thick and does not fall apart easily when cooked",
-        "Natural salty flavour, not too strong",
-        "Suitable for various dishes: fried, sambal, or balado",
-        "Long lasting when stored in the freezer or cool place",
-        "Traditionally and hygienically processed without preservatives"
+        "Extra small and crunchy, ideal for kids and elderly",
+        "Mild saltiness, easy to cook with",
+        "Popular for Indonesian sambal and stir-fried dishes"
       ]
     },
     "product2": {
       "id": 2,
-      "name": "Ikan Asin Peda",
-      "imgSrc": "https://i.imgur.com/ipFm8yh.png",
-      "description": "This salted fish comes from manyung fish (Arius thalassinus), which is commonly found in the waters of the north coast of Java Island, especially in the Indramayu, Cirebon and Tegal areas. The name jambal roti came about because the thick and dense pieces of fish meat resemble fresh bread. This product has long been known as one of the Nusantara's signature side dishes with a delicious savoury and salty taste.",
+      "name": "Teri Kering Jengki",
+      "imgSrc": "https://i.imgur.com/SwCMlpV.png",
+      "description": "Larger anchovies than Teri Nasi, white in color with a firmer texture. Commonly fried or cooked in spicy sauces.",
       "specification": [
         {
-          "title": "Berat Bersih",
-          "value": "500 gr"
+          "title": "Net Weight",
+          "value": "±250 gram / pack"
         },
         {
-          "title": "Jenis Ikan",
-          "value": "500 gr"
+          "title": "Fish Type",
+          "value": "Large anchovy"
         },
         {
-          "title": "Asal",
-          "value": "Indramayu, Jawa Barat"
+          "title": "Origin",
+          "value": "West Sumatra or Sulawesi"
         },
         {
-          "title": "Kemasan",
+          "title": "Packaging",
           "value": "Vakum pack food grade"
         }
       ],
       "advantage": [
-        "The fish meat is thick and does not fall apart easily when cooked",
-        "Natural salty flavour, not too strong",
-        "Suitable for various dishes: fried, sambal, or balado",
-        "Long lasting when stored in the freezer or cool place",
-        "Traditionally and hygienically processed without preservatives"
+        "Meatier texture, perfect as a main dish",
+        "Crispy when fried, ideal for salty snacks",
+        "Longer shelf life when stored dry"
       ]
     },
     "product3": {
       "id": 3,
-      "name": "Ikan Asin Teri",
-      "imgSrc": "https://i.imgur.com/7SaCdgE.png",
-      "description": "This salted fish comes from manyung fish (Arius thalassinus), which is commonly found in the waters of the north coast of Java Island, especially in the Indramayu, Cirebon and Tegal areas. The name jambal roti came about because the thick and dense pieces of fish meat resemble fresh bread. This product has long been known as one of the Nusantara's signature side dishes with a delicious savoury and salty taste.",
+      "name": "Ikan Asin Kembung",
+      "imgSrc": "https://i.imgur.com/YM2zh8f.png",
+      "description": "Salted and dried mackerel with a savory-salty taste, often enjoyed fried or grilled alongside warm rice.",
       "specification": [
         {
-          "title": "Berat Bersih",
-          "value": "500 gr"
+          "title": "Net Weight",
+          "value": "±300 gram"
         },
         {
-          "title": "Jenis Ikan",
-          "value": "500 gr"
+          "title": "Fish Type",
+          "value": "Mackerel"
         },
         {
-          "title": "Asal",
-          "value": "Indramayu, Jawa Barat"
+          "title": "Origin",
+          "value": "West Java / Sumatra"
         },
         {
-          "title": "Kemasan",
+          "title": "Packaging",
           "value": "Vakum pack food grade"
         }
       ],
       "advantage": [
-        "The fish meat is thick and does not fall apart easily when cooked",
-        "Natural salty flavour, not too strong",
-        "Suitable for various dishes: fried, sambal, or balado",
-        "Long lasting when stored in the freezer or cool place",
-        "Traditionally and hygienically processed without preservatives"
+        "Rich in omega-3",
+        "Naturally savory, perfect for simple meals",
+        "Long-lasting when stored in dry conditions"
       ]
     },
     "product4": {
       "id": 4,
-      "name": "Ikan Asin Gabus",
+      "name": "Ikan Asin Tenggiri",
       "imgSrc": "https://i.imgur.com/7AqEaQg.png",
-      "description": "This salted fish comes from manyung fish (Arius thalassinus), which is commonly found in the waters of the north coast of Java Island, especially in the Indramayu, Cirebon and Tegal areas. The name jambal roti came about because the thick and dense pieces of fish meat resemble fresh bread. This product has long been known as one of the Nusantara's signature side dishes with a delicious savoury and salty taste.",
+      "description": "Thick slices of salted Spanish mackerel, pale yellow in color, with a rich umami taste and distinctive aroma.",
       "specification": [
         {
-          "title": "Berat Bersih",
-          "value": "500 gr"
+          "title": "Net Weight",
+          "value": "±250–300 gram"
         },
         {
-          "title": "Jenis Ikan",
-          "value": "500 gr"
+          "title": "Fish Type",
+          "value": "Spanish mackerel"
         },
         {
-          "title": "Asal",
-          "value": "Indramayu, Jawa Barat"
+          "title": "Origin",
+          "value": "Kalimantan / Sulawesi"
         },
         {
-          "title": "Kemasan",
+          "title": "Packaging",
           "value": "Vakum pack food grade"
         }
       ],
       "advantage": [
-        "The fish meat is thick and does not fall apart easily when cooked",
-        "Natural salty flavour, not too strong",
-        "Suitable for various dishes: fried, sambal, or balado",
-        "Long lasting when stored in the freezer or cool place",
-        "Traditionally and hygienically processed without preservatives"
+        "Dense and firm meat",
+        "Great for stir-fries, sambal, or deep-fried",
+        "High in protein"
       ]
     },
     "product5": {
       "id": 5,
-      "name": "Ikan Asin Sepat",
-      "imgSrc": "https://i.imgur.com/gPuBc6H.png",
-      "description": "This salted fish comes from manyung fish (Arius thalassinus), which is commonly found in the waters of the north coast of Java Island, especially in the Indramayu, Cirebon and Tegal areas. The name jambal roti came about because the thick and dense pieces of fish meat resemble fresh bread. This product has long been known as one of the Nusantara's signature side dishes with a delicious savoury and salty taste.",
+      "name": "Ikan Asin Layur",
+      "imgSrc": "https://i.imgur.com/galxaCf.png",
+      "description": "Long, slender dried ribbonfish with silvery gray color. Chewy and flavorful when cooked.",
       "specification": [
         {
-          "title": "Berat Bersih",
-          "value": "500 gr"
+          "title": "Net Weight",
+          "value": "±250 gram"
         },
         {
-          "title": "Jenis Ikan",
-          "value": "500 gr"
+          "title": "Fish Type",
+          "value": "Ribbonfish"
         },
         {
-          "title": "Asal",
-          "value": "Indramayu, Jawa Barat"
+          "title": "Origin",
+          "value": "East Java / Bali"
         },
         {
-          "title": "Kemasan",
+          "title": "Packaging",
           "value": "Vakum pack food grade"
         }
       ],
       "advantage": [
-        "The fish meat is thick and does not fall apart easily when cooked",
-        "Natural salty flavour, not too strong",
-        "Suitable for various dishes: fried, sambal, or balado",
-        "Long lasting when stored in the freezer or cool place",
-        "Traditionally and hygienically processed without preservatives"
+        "Soft texture and tasty flavor",
+        "Milder saltiness, suitable for kids",
+        "Rich in marine minerals"
       ]
     },
     "product6": {
       "id": 6,
-      "name": "Ikan Asin Layur",
-      "imgSrc": "https://i.imgur.com/O9ks7Tx.png",
-      "description": "This salted fish comes from manyung fish (Arius thalassinus), which is commonly found in the waters of the north coast of Java Island, especially in the Indramayu, Cirebon and Tegal areas. The name jambal roti came about because the thick and dense pieces of fish meat resemble fresh bread. This product has long been known as one of the Nusantara's signature side dishes with a delicious savoury and salty taste.",
+      "name": "Teri Kering Hitam",
+      "imgSrc": "https://i.imgur.com/tqVCrCl.png",
+      "description": "Small to medium-sized anchovy with a dark coloration and strong oceanic flavor. Often used in sambal, stir-fries, or mixed with vegetables.",
       "specification": [
         {
-          "title": "Berat Bersih",
-          "value": "500 gr"
+          "title": "Net Weight",
+          "value": "±200–250 gram"
         },
         {
-          "title": "Jenis Ikan",
-          "value": "500 gr"
+          "title": "Fish Type",
+          "value": "Black anchovy"
         },
         {
-          "title": "Asal",
-          "value": "Indramayu, Jawa Barat"
+          "title": "Origin",
+          "value": "Sulawesi / Maluku"
         },
         {
-          "title": "Kemasan",
+          "title": "Packaging",
           "value": "Vakum pack food grade"
         }
       ],
       "advantage": [
-        "The fish meat is thick and does not fall apart easily when cooked",
-        "Natural salty flavour, not too strong",
-        "Suitable for various dishes: fried, sambal, or balado",
-        "Long lasting when stored in the freezer or cool place",
-        "Traditionally and hygienically processed without preservatives"
+        "Intense savory flavor",
+        "Excellent for bold-flavored dishes",
+        "Durable texture, doesn’t break easily"
+      ]
+    },
+    "product7": {
+      "id": 7,
+      "name": "Ikan Asin Ibis",
+      "imgSrc": "https://i.imgur.com/O9ks7Tx.png",
+      "description": "Tiny, silver-colored bilis fish used in traditional dishes like sambal bilis or Malaysian-style nasi lemak.",
+      "specification": [
+        {
+          "title": "Net Weight",
+          "value": "±200 gram"
+        },
+        {
+          "title": "Fish Type",
+          "value": "Ikan bilis"
+        },
+        {
+          "title": "Origin",
+          "value": "West Sumatra / Aceh"
+        },
+        {
+          "title": "Packaging",
+          "value": "Vakum pack food grade"
+        }
+      ],
+      "advantage": [
+        "Perfect for Malay and Padang-style cuisine",
+        "Crispy and savory when fried",
+        "High in calcium and protein"
       ]
     }
   },
@@ -213,16 +231,12 @@
     "subTitle": "Let's get to know the founders at PT Indonesian Framing Family",
     "persons": {
       "person1": {
-        "name": "John Doe",
-        "position": "President Director"
+        "name": "Ivan Cahya Pratama",
+        "position": "Chief Executive Officer"
       },
       "person2": {
-        "name": "Rebecca Zenner",
-        "position": "General Manager"
-      },
-      "person3": {
-        "name": "Ali Mu'alim",
-        "position": "Marketing Manager"
+        "name": "Ali Imron",
+        "position": "Chief Operating Officer"
       }
     }
   },

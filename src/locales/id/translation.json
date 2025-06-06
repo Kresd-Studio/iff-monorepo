@@ -16,58 +16,57 @@
   "products": {
     "title": "Produk Kami",
     "subTitle": "Kami pilih hanya ikan terbaik, hasil akhirnya pun luar biasa. Setiap ikan melalui proses seleksi ketat sebelum diasinkan. Tekstur renyah, rasa pas, dan aroma khas yang menggoda.",
+    "benefitTittle": "Keunggulan Produk",
     "product1": {
       "id": 1,
-      "name": "Ikan Asin Jambal",
-      "imgSrc": "https://i.imgur.com/zw2uBGV.png",
-      "description": "Ikan Asin ini berasal dari ikan manyung (Arius thalassinus), yang banyak ditemukan di perairan pantai utara Pulau Jawa, khususnya di daerah Indramayu, Cirebon, dan Tegal. Nama ini muncul karena potongan daging ikan yang tebal dan padat menyerupai roti tawar. Produk ini sudah lama dikenal sebagai salah satu lauk khas Nusantara dengan cita rasa gurih dan asin yang nikmat.",
+      "name": "Teri Nasi/Medan",
+      "imgSrc": "https://i.imgur.com/Qj5nQbT.png",
+      "description": "Teri berukuran sangat kecil, berwarna putih keabu-abuan, dan memiliki tekstur renyah setelah digoreng. Biasanya digunakan untuk campuran sambal, nasi goreng, atau lauk kering.",
       "specification": [
         {
           "title": "Berat Bersih",
-          "value": "500 gr"
+          "value": "±250 gram / pack"
         },
         {
           "title": "Jenis Ikan",
-          "value": "500 gr"
+          "value": "Ikan teri kecil"
         },
         {
           "title": "Asal",
-          "value": "Indramayu, Jawa Barat"
+          "value": "Medan, Sumatera Utara"
         },
         {
           "title": "Kemasan",
-          "value": "Vakum pack food grade"
+          "value": "Kemasan Vakum food grade"
         }
       ],
       "advantage": [
-        "Daging ikan tebal dan tidak mudah hancur saat dimasak",
-        "Rasa asin alami, tidak terlalu menyengat",
-        "Cocok untuk berbagai masakan: digoreng, sambal, atau balado",
-        "Tahan lama bila disimpan di freezer atau tempat sejuk",
-        "Diproses secara tradisional dan higienis tanpa bahan pengawet"
+        "Ukuran kecil dan renyah, cocok untuk anak-anak dan lansia",
+        "Tidak terlalu asin, mudah diolah",
+        "Cocok untuk berbagai masakan: digoreng, sambal, atau balado"
       ]
     },
     "product2": {
       "id": 2,
-      "name": "Ikan Asin Peda",
-      "imgSrc": "https://i.imgur.com/ipFm8yh.png",
-      "description": "Ikan Asin ini berasal dari ikan manyung (Arius thalassinus), yang banyak ditemukan di perairan pantai utara Pulau Jawa, khususnya di daerah Indramayu, Cirebon, dan Tegal. Nama ini muncul karena potongan daging ikan yang tebal dan padat menyerupai roti tawar. Produk ini sudah lama dikenal sebagai salah satu lauk khas Nusantara dengan cita rasa gurih dan asin yang nikmat.",
+      "name": "Teri Kering Jengki",
+      "imgSrc": "https://i.imgur.com/SwCMlpV.png",
+      "description": "Teri berukuran lebih besar dari teri nasi, berwarna putih terang dengan tekstur yang lebih padat. Biasanya digoreng kering atau dimasak balado",
       "specification": [
         {
           "title": "Berat Bersih",
-          "value": "500 gr"
+          "value": "±250 gram / pack"
         },
         {
           "title": "Jenis Ikan",
-          "value": "500 gr"
+          "value": "Ikan teri jengki"
         },
         {
           "title": "Asal",
-          "value": "Indramayu, Jawa Barat"
+          "value": "Sumatera Barat atau Sulawesi"
         },
         {
           "title": "Kemasan",
-          "value": "Vakum pack food grade"
+          "value": "Kemasan Vakum food grade"
         }
       ],
       "advantage": [
@@ -80,126 +79,147 @@
     },
     "product3": {
       "id": 3,
-      "name": "Ikan Asin Teri",
-      "imgSrc": "https://i.imgur.com/7SaCdgE.png",
-      "description": "Ikan Asin ini berasal dari ikan manyung (Arius thalassinus), yang banyak ditemukan di perairan pantai utara Pulau Jawa, khususnya di daerah Indramayu, Cirebon, dan Tegal. Nama ini muncul karena potongan daging ikan yang tebal dan padat menyerupai roti tawar. Produk ini sudah lama dikenal sebagai salah satu lauk khas Nusantara dengan cita rasa gurih dan asin yang nikmat.",
+      "name": "Ikan Asin Kembung",
+      "imgSrc": "https://i.imgur.com/YM2zh8f.png",
+      "description": "Ikan kembung yang diasinkan dan dikeringkan, memiliki cita rasa gurih-asin khas, sering dijadikan lauk pendamping nasi hangat",
       "specification": [
         {
           "title": "Berat Bersih",
-          "value": "500 gr"
+          "value": "±300 gram"
         },
         {
           "title": "Jenis Ikan",
-          "value": "500 gr"
+          "value": "Ikan kembung"
         },
         {
           "title": "Asal",
-          "value": "Indramayu, Jawa Barat"
+          "value": "Sumatera atau Jawa Barat"
         },
         {
           "title": "Kemasan",
-          "value": "Vakum pack food grade"
+          "value": "Kemasan Vakum food grade"
         }
       ],
       "advantage": [
-        "Daging ikan tebal dan tidak mudah hancur saat dimasak",
-        "Rasa asin alami, tidak terlalu menyengat",
-        "Cocok untuk berbagai masakan: digoreng, sambal, atau balado",
-        "Tahan lama bila disimpan di freezer atau tempat sejuk",
-        "Diproses secara tradisional dan higienis tanpa bahan pengawet"
+        "Kaya omega-3",
+        "Rasa asin-gurih alami, cocok digoreng atau dibakar",
+        "Tahan lama dalam penyimpanan kering"
       ]
     },
     "product4": {
       "id": 4,
-      "name": "Ikan Asin Gabus",
+      "name": "Ikan Asin Tenggiri",
       "imgSrc": "https://i.imgur.com/7AqEaQg.png",
-      "description": "Ikan Asin ini berasal dari ikan manyung (Arius thalassinus), yang banyak ditemukan di perairan pantai utara Pulau Jawa, khususnya di daerah Indramayu, Cirebon, dan Tegal. Nama ini muncul karena potongan daging ikan yang tebal dan padat menyerupai roti tawar. Produk ini sudah lama dikenal sebagai salah satu lauk khas Nusantara dengan cita rasa gurih dan asin yang nikmat.",
+      "description": "Ikan tenggiri fillet yang diasinkan, bentuknya pipih, tebal, dan berwarna putih kekuningan. Memiliki rasa gurih kuat dan aroma khas.",
       "specification": [
         {
           "title": "Berat Bersih",
-          "value": "500 gr"
+          "value": "±250–300 gram"
         },
         {
           "title": "Jenis Ikan",
-          "value": "500 gr"
+          "value": "Ikan tenggiri"
         },
         {
           "title": "Asal",
-          "value": "Indramayu, Jawa Barat"
+          "value": "Kalimantan / Sulawesi"
         },
         {
           "title": "Kemasan",
-          "value": "Vakum pack food grade"
+          "value": "Kemasan Vakum food grade"
         }
       ],
       "advantage": [
-        "Daging ikan tebal dan tidak mudah hancur saat dimasak",
-        "Rasa asin alami, tidak terlalu menyengat",
-        "Cocok untuk berbagai masakan: digoreng, sambal, atau balado",
-        "Tahan lama bila disimpan di freezer atau tempat sejuk",
-        "Diproses secara tradisional dan higienis tanpa bahan pengawet"
+        "Daging padat dan tebal",
+        "Cocok untuk tumisan, balado, atau digoreng garing",
+        "Kandungan protein tinggi"
       ]
     },
     "product5": {
       "id": 5,
-      "name": "Ikan Asin Sepat",
-      "imgSrc": "https://i.imgur.com/gPuBc6H.png",
-      "description": "Ikan Asin ini berasal dari ikan manyung (Arius thalassinus), yang banyak ditemukan di perairan pantai utara Pulau Jawa, khususnya di daerah Indramayu, Cirebon, dan Tegal. Nama ini muncul karena potongan daging ikan yang tebal dan padat menyerupai roti tawar. Produk ini sudah lama dikenal sebagai salah satu lauk khas Nusantara dengan cita rasa gurih dan asin yang nikmat.",
+      "name": "Ikan Asin Layur",
+      "imgSrc": "https://i.imgur.com/galxaCf.png",
+      "description": "Ikan layur yang dikeringkan, berbentuk panjang dan ramping dengan warna perak keabu-abuan. Teksturnya kenyal dan gurih saat dimasak.",
       "specification": [
         {
           "title": "Berat Bersih",
-          "value": "500 gr"
+          "value": "±250 gram"
         },
         {
           "title": "Jenis Ikan",
-          "value": "500 gr"
+          "value": "Ikan layur"
         },
         {
           "title": "Asal",
-          "value": "Indramayu, Jawa Barat"
+          "value": "Jawa Timur / Bali"
         },
         {
           "title": "Kemasan",
-          "value": "Vakum pack food grade"
+          "value": "Kemasan Vakum food grade"
         }
       ],
       "advantage": [
-        "Daging ikan tebal dan tidak mudah hancur saat dimasak",
-        "Rasa asin alami, tidak terlalu menyengat",
-        "Cocok untuk berbagai masakan: digoreng, sambal, atau balado",
-        "Tahan lama bila disimpan di freezer atau tempat sejuk",
-        "Diproses secara tradisional dan higienis tanpa bahan pengawet"
+        "Daging empuk dan lezat",
+        "Tidak terlalu asin, cocok untuk anak-anak",
+        "Kaya mineral laut"
       ]
     },
     "product6": {
       "id": 6,
-      "name": "Ikan Asin Layur",
-      "imgSrc": "https://i.imgur.com/O9ks7Tx.png",
-      "description": "Ikan Asin ini berasal dari ikan manyung (Arius thalassinus), yang banyak ditemukan di perairan pantai utara Pulau Jawa, khususnya di daerah Indramayu, Cirebon, dan Tegal. Nama ini muncul karena potongan daging ikan yang tebal dan padat menyerupai roti tawar. Produk ini sudah lama dikenal sebagai salah satu lauk khas Nusantara dengan cita rasa gurih dan asin yang nikmat.",
+      "name": "Teri Kering Hitam",
+      "imgSrc": "https://i.imgur.com/tqVCrCl.png",
+      "description": "Teri berwarna kehitaman, umumnya lebih kecil dari jengki tapi lebih besar dari teri nasi. Punya rasa asin yang kuat dan aroma khas laut.",
       "specification": [
         {
           "title": "Berat Bersih",
-          "value": "500 gr"
+          "value": "±200–250 gram"
         },
         {
           "title": "Jenis Ikan",
-          "value": "500 gr"
+          "value": "Teri hitam"
         },
         {
           "title": "Asal",
-          "value": "Indramayu, Jawa Barat"
+          "value": "Sulawesi / Maluku"
         },
         {
           "title": "Kemasan",
-          "value": "Vakum pack food grade"
+          "value": "Kemasan Vakum food grade"
         }
       ],
       "advantage": [
-        "Daging ikan tebal dan tidak mudah hancur saat dimasak",
-        "Rasa asin alami, tidak terlalu menyengat",
-        "Cocok untuk berbagai masakan: digoreng, sambal, atau balado",
-        "Tahan lama bila disimpan di freezer atau tempat sejuk",
-        "Diproses secara tradisional dan higienis tanpa bahan pengawet"
+        "Rasa laut yang khas dan kuat",
+        "Cocok untuk sambal, tumisan, atau dicampur sayur",
+        "Tahan lama dan tidak mudah hancur"
+      ]
+    },
+    "product7": {
+      "id": 7,
+      "name": "Ikan Asin Ibis",
+      "imgSrc": "https://i.imgur.com/O9ks7Tx.png",
+      "description": "Ikan bilis kecil-kecil berwarna keperakan, biasa digunakan dalam masakan tradisional seperti sambal bilis atau nasi lemak",
+      "specification": [
+        {
+          "title": "Berat Bersih",
+          "value": "±200 gram"
+        },
+        {
+          "title": "Jenis Ikan",
+          "value": "Ikan bilis"
+        },
+        {
+          "title": "Asal",
+          "value": "Sumatera Barat / Aceh"
+        },
+        {
+          "title": "Kemasan",
+          "value": "Kemasan Vakum food grade"
+        }
+      ],
+      "advantage": [
+        "Cocok untuk masakan khas Melayu dan Padang",
+        "Renyah dan gurih saat digoreng",
+        "Sumber kalsium dan protein tinggi"
       ]
     }
   },
@@ -213,16 +233,12 @@
     "subTitle": "Mari berkenalan dengan para pendiri di PT. Indonesian Framing Family",
     "persons": {
       "person1": {
-        "name": "John Doe",
-        "position": "Direktur Utama"
+        "name": "Ivan Cahya Pratama",
+        "position": "Chief Executive Officer"
       },
       "person2": {
-        "name": "Rebecca Zenner",
-        "position": "Manajer Umum"
-      },
-      "person3": {
-        "name": "Ali Mu'alim",
-        "position": "Manajer Pemasaran"
+        "name": "Ali Imron",
+        "position": "Chief Operating Officer"
       }
     }
   },
