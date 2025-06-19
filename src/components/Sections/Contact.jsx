@@ -1,11 +1,10 @@
 import React from "react";
 import { LuMapPin, LuPhoneCall } from "react-icons/lu";
-import { FaWhatsapp, } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import styled from "styled-components";
 import { useTranslation } from "react-i18next";
 // Components
 import FullButton from "../Buttons/FullButton";
-import contactImg from "../../assets/img/contact.png";
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -17,7 +16,7 @@ export default function Contact() {
             <AddLeft>
               <AddLeftInner>
                 <ImgWrapper className="flexCenter">
-                  <img className="radius8" src={contactImg} alt="add" />
+                  <img className="radius8" src='/assets/contact.png' alt="add" />
                 </ImgWrapper>
               </AddLeftInner>
             </AddLeft>
@@ -26,7 +25,7 @@ export default function Contact() {
               <h2 className="font40 extraBold">{t('contact.title')}</h2>
               <div style={{ display: 'flex', flexDirection: 'column', gap: "4px", paddingTop: '12px' }}>
                 <a href="tel:088707002943" className="verticalCenter gap8 font18"><LuPhoneCall />088707002943</a>
-                <a href="https://maps.app.goo.gl/5F3DrfykbdepoHv7A" style={{ textAlign: 'left' }} target="_blank" className="verticalCenter gap8 font18" rel="noreferrer"><LuMapPin className="font24" /> Jl. Hi. Komarudin No.3, Rajabasa Raya, <br/> Kec. Rajabasa, Kota Bandar Lamppung,<br/> Lampung</a>
+                <a href="https://maps.app.goo.gl/5F3DrfykbdepoHv7A" style={{ textAlign: 'left' }} target="_blank" className="verticalCenter gap8 font18" rel="noreferrer"><LuMapPin className="font24" /> Jl. Hi. Komarudin No.3, Rajabasa Raya, <br /> Kec. Rajabasa, Kota Bandar Lamppung,<br /> Lampung</a>
               </div>
 
 

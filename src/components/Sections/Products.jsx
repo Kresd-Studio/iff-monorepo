@@ -14,6 +14,12 @@ export default function Products() {
     navigate(url);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
+
+  const handlePDFView = () => {
+    const pdfUrl = '/assets/catalog.pdf';
+    window.open(pdfUrl, '_blank');
+  };
+
   return (
     <Wrapper id="products">
       <div className="whiteBg" style={{ paddingTop: "60px" }}>
@@ -88,7 +94,7 @@ export default function Products() {
           </div>
           <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton icon={<LuDownload />} title={t('catalogueBtnTxt')} action={() => window.open('https://drive.google.com/file/d/1P2-3OkQwj2B-UdcQ8o79O358gzSrJu4p/view', '_blank')} />
+              <FullButton icon={<LuDownload />} title={t('catalogueBtnTxt')} action={handlePDFView} />
             </div>
           </div>
         </div>

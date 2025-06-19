@@ -5,17 +5,15 @@ import { useTranslation } from "react-i18next";
 // Components
 import FullButton from "../Buttons/FullButton";
 import ProjectBox from "../Elements/ProjectBox";
-// Assets
-import image1 from "../../assets/img/about/1.png";
-import image2 from "../../assets/img/about/2.png";
-import image3 from "../../assets/img/about/3.png";
-import image4 from "../../assets/img/about/4.png";
-// Assets
-import teamImg1 from "../../assets/img/about/ceo.png";
-import teamImg2 from "../../assets/img/about/coo.png";
 
 export default function About() {
   const { t } = useTranslation();
+   
+  const handlePDFView = () => {
+    const pdfUrl = '/assets/catalog.pdf';
+    window.open(pdfUrl, '_blank');
+  };
+
   return (
     <Wrapper id="about">
       <div className="whiteBg" style={{ padding: "60px 0" }}>
@@ -29,7 +27,7 @@ export default function About() {
               </p>
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                 <div style={{ width: "200px" }}>
-                  <FullButton icon={<LuDownload />} title={t('catalogueBtnTxt')} action={() => window.open('https://drive.google.com/file/d/1P2-3OkQwj2B-UdcQ8o79O358gzSrJu4p/view', '_blank')} />
+                  <FullButton icon={<LuDownload />} title={t('catalogueBtnTxt')} action={handlePDFView} />
                 </div>
                 <div style={{ width: "200px", marginLeft: "15px" }}>
                   <FullButton icon={<LuPhoneCall />} title={t('contactBtnTxt')} action={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })} border />
@@ -40,18 +38,18 @@ export default function About() {
               <AddRightInner>
                 <div className="flexNullCenter">
                   <AddImgWrapp1 className="flexCenter">
-                    <img src={image1} alt="office" />
+                    <img src='/assets/about/1.png' alt="office" />
                   </AddImgWrapp1>
                   <AddImgWrapp2>
-                    <img src={image2} alt="office" />
+                    <img src='/assets/about/2.png' alt="office" />
                   </AddImgWrapp2>
                 </div>
                 <div className="flexNullCenter">
                   <AddImgWrapp3>
-                    <img src={image3} alt="office" />
+                    <img src='/assets/about/3.png' alt="office" />
                   </AddImgWrapp3>
                   <AddImgWrapp4>
-                    <img src={image4} alt="office" />
+                    <img src='/assets/about/4.png' alt="office" />
                   </AddImgWrapp4>
                 </div>
               </AddRightInner>
@@ -70,14 +68,14 @@ export default function About() {
           <div className="row textCenter">
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={teamImg1}
+                img='/assets/about/ceo.png'
                 title={t('team.persons.person1.name')}
                 text={t('team.persons.person1.position')}
               />
             </div>
             <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
               <ProjectBox
-                img={teamImg2}
+                img='/assets/about/coo.png'
                 title={t('team.persons.person2.name')}
                 text={t('team.persons.person2.position')}
               />

@@ -19,7 +19,7 @@
     "benefitTittle": "Product Benefit",
     "product1": {
       "id": 1,
-      "name": "Teri Nasi/Medan",
+      "name": "Dried White Anchovy",
       "imgSrc": "https://i.imgur.com/Qj5nQbT.png",
       "description": "Tiny white anchovies with a crisp texture when fried. Commonly used in sambal (spicy relish), fried rice, or as a crunchy side dish.",
       "specification": [
@@ -48,7 +48,7 @@
     },
     "product2": {
       "id": 2,
-      "name": "Teri Kering Jengki",
+      "name": "Dried Brown Anchovy",
       "imgSrc": "https://i.imgur.com/SwCMlpV.png",
       "description": "Larger anchovies than Teri Nasi, white in color with a firmer texture. Commonly fried or cooked in spicy sauces.",
       "specification": [
@@ -77,7 +77,7 @@
     },
     "product3": {
       "id": 3,
-      "name": "Ikan Asin Kembung",
+      "name": "Salted Mackerel Fish",
       "imgSrc": "https://i.imgur.com/YM2zh8f.png",
       "description": "Salted and dried mackerel with a savory-salty taste, often enjoyed fried or grilled alongside warm rice.",
       "specification": [
@@ -106,7 +106,7 @@
     },
     "product4": {
       "id": 4,
-      "name": "Ikan Asin Tenggiri",
+      "name": "Spanish Mackerel",
       "imgSrc": "https://i.imgur.com/7AqEaQg.png",
       "description": "Thick slices of salted Spanish mackerel, pale yellow in color, with a rich umami taste and distinctive aroma.",
       "specification": [
@@ -135,7 +135,7 @@
     },
     "product5": {
       "id": 5,
-      "name": "Ikan Asin Layur",
+      "name": "Hairtail Fish",
       "imgSrc": "https://i.imgur.com/galxaCf.png",
       "description": "Long, slender dried ribbonfish with silvery gray color. Chewy and flavorful when cooked.",
       "specification": [
@@ -164,7 +164,7 @@
     },
     "product6": {
       "id": 6,
-      "name": "Teri Kering Hitam",
+      "name": "Black Anchovies",
       "imgSrc": "https://i.imgur.com/tqVCrCl.png",
       "description": "Small to medium-sized anchovy with a dark coloration and strong oceanic flavor. Often used in sambal, stir-fries, or mixed with vegetables.",
       "specification": [

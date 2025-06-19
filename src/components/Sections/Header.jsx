@@ -4,7 +4,6 @@ import { LuPhoneCall } from "react-icons/lu";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/hero.png";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 import { useTranslation } from "react-i18next";
@@ -26,7 +25,7 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{ zIndex: 9 }} />
+          <Img className="radius8" src='/assets/hero.png' alt="office" style={{ zIndex: 9 }} />
           <QuoteWrapper className="flexCenter greyBg radius8">
             <QuotesWrapper>
               <QuotesIcon />

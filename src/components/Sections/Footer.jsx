@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 // Assets
 import LogoImg from "../../assets/svg/Logo";
-import { AiOutlineYoutube, AiOutlineFacebook, AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineFacebook, AiOutlineInstagram } from "react-icons/ai";
 
 export default function Contact() {
 
@@ -27,9 +27,9 @@ export default function Contact() {
                 display: 'flex', flexDirection: 'row', gap: "12px", paddingTop: '12px',
                 padding: '10px',
               }}>
-                <a href="https://facebook.com" className="verticalCenter font25 darkColor"><AiOutlineFacebook /></a>
-                <a href="https://youtube.com" className="verticalCenter font25 darkColor"><AiOutlineYoutube /></a>
-                <a href="https://instagram.com" className="verticalCenter font25 darkColor"><AiOutlineInstagram /></a>
+                <a href="https://www.facebook.com/indonesiafarmingfamily.28" className="verticalCenter font25 darkColor"><AiOutlineFacebook /></a>
+                {/* <a href="https://youtube.com" className="verticalCenter font25 darkColor"><AiOutlineYoutube /></a> */}
+                <a href="https://www.instagram.com/indonesianfarmingfamily/" className="verticalCenter font25 darkColor"><AiOutlineInstagram /></a>
               </div>
             </MedsosWrapper>
             <StyleP className="darkColor font15">
