@@ -131,7 +131,7 @@
     "product4": {
       "id": 4,
       "name": "Spanish Mackerel",
-      "imgSrc": "https://i.imgur.com/7AqEaQg.png",
+      "imgSrc": "https://i.imgur.com/t8A3Z1g.png",
       "description": "Salted Spanish Mackerel is a premium salted fish known for its firm meat, minimal bones, and savory richness. This fish is ideal for frying or as a flavor base in soups and stews. Its high-quality taste and meaty texture make it a popular choice for gourmet and home-style cooking alike.",
       "specification": [
         {
@@ -246,7 +246,7 @@
     "product7": {
       "id": 7,
       "name": "Salted Anchovies",
-      "imgSrc": "https://i.imgur.com/O9ks7Tx.png",
+      "imgSrc": "https://i.imgur.com/DWqRUgj.png",
       "description": "Salted Anchovies (Bilis) are tiny fish with a salty, punchy flavor commonly used in Malaysian, Indonesian, and Filipino cuisines. They are typically deep-fried until golden and crispy, often served with peanuts or sambal. These anchovies are a crunchy, flavorful addition to dishes like nasi lemak or mixed rice platters.",
       "specification": [
         {
