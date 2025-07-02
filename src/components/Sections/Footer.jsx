@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 // Assets
 import LogoImg from "../../assets/svg/Logo";
-import { AiOutlineFacebook, AiOutlineInstagram } from "react-icons/ai";
+import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineLinkedin, AiOutlineTikTok } from "react-icons/ai";
 
 export default function Contact() {
 
@@ -27,9 +27,10 @@ export default function Contact() {
                 display: 'flex', flexDirection: 'row', gap: "12px", paddingTop: '12px',
                 padding: '10px',
               }}>
-                <a href="https://www.facebook.com/indonesiafarmingfamily.28" className="verticalCenter font25 darkColor"><AiOutlineFacebook /></a>
-                {/* <a href="https://youtube.com" className="verticalCenter font25 darkColor"><AiOutlineYoutube /></a> */}
-                <a href="https://www.instagram.com/indonesianfarmingfamily/" className="verticalCenter font25 darkColor"><AiOutlineInstagram /></a>
+                <a href="https://www.facebook.com/indonesiafarmingfamily.28" target="_blank" className="verticalCenter font25 darkColor" rel="noreferrer"><AiOutlineFacebook /></a>
+                <a href="https://www.linkedin.com/in/pt-indonesia-farming-family-8380a3372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="verticalCenter font25 darkColor" rel="noreferrer"><AiOutlineLinkedin /></a>
+                <a href="https://tiktok.com/@pt.indofarmingfamily" target="_blank" className="verticalCenter font25 darkColor" rel="noreferrer"><AiOutlineTikTok /></a>
+                <a href="https://www.instagram.com/indonesianfarmingfamily/" target="_blank" className="verticalCenter font25 darkColor" rel="noreferrer"><AiOutlineInstagram /></a>
               </div>
             </MedsosWrapper>
             <StyleP className="darkColor font15">

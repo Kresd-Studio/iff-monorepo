@@ -20,24 +20,32 @@
     "product1": {
       "id": 1,
       "name": "Teri Nasi/Medan",
-      "imgSrc": "https://i.imgur.com/Qj5nQbT.png",
-      "description": "Teri berukuran sangat kecil, berwarna putih keabu-abuan, dan memiliki tekstur renyah setelah digoreng. Biasanya digunakan untuk campuran sambal, nasi goreng, atau lauk kering.",
+      "imgSrc": "https://i.imgur.com/w38zsbT.png",
+      "description": "Ikan Asin Teri Nasi merupakan jenis teri kecil berwarna putih dengan tekstur halus dan rasa gurih yang ringan. Sering digunakan dalam masakan Asia Tenggara, teri ini sangat cocok digoreng hingga renyah dan dijadikan pelengkap pada nasi, sayur, atau sup. Teksturnya yang renyah dan rasanya yang gurih menjadikannya pilihan favorit untuk meningkatkan cita rasa masakan sehari-hari.",
       "specification": [
         {
-          "title": "Berat Bersih",
-          "value": "±250 gram / pack"
+          "title": "Panjang",
+          "value": "1–3 cm"
         },
         {
-          "title": "Jenis Ikan",
-          "value": "Ikan teri kecil"
+          "title": "Lebar",
+          "value": "± 0,3–0,5 cm"
         },
         {
-          "title": "Asal",
-          "value": "Medan, Sumatera Utara"
+          "title": "Jumlah per 100 gram",
+          "value": "± 300–400 ekor"
         },
         {
-          "title": "Kemasan",
-          "value": "Kemasan Vakum food grade"
+          "title": "Komposisi",
+          "value": "100% teri, garam kasar alami"
+        },
+        {
+          "title": "Kadar Air",
+          "value": "≤ 25%"
+        },
+        {
+          "title": "Kadar Garam",
+          "value": "± 15–20%"
         }
       ],
       "advantage": [
@@ -50,23 +58,31 @@
       "id": 2,
       "name": "Teri Kering Jengki",
       "imgSrc": "https://i.imgur.com/SwCMlpV.png",
-      "description": "Teri berukuran lebih besar dari teri nasi, berwarna putih terang dengan tekstur yang lebih padat. Biasanya digoreng kering atau dimasak balado",
+      "description": "Ikan Asin Teri Jengki berukuran sedikit lebih besar dan memiliki tekstur yang lebih padat dibandingkan teri nasi, dengan rasa gurih yang lebih kuat. Sering digunakan dalam masakan rumahan Indonesia, biasanya digoreng atau ditumis dengan cabai dan bumbu. Rasanya yang kaya dan teksturnya yang kenyal sangat cocok untuk hidangan bercita rasa kuat dan kaya rempah.",
       "specification": [
         {
-          "title": "Berat Bersih",
-          "value": "±250 gram / pack"
+          "title": "Panjang",
+          "value": "± 4–7 cm"
         },
         {
-          "title": "Jenis Ikan",
-          "value": "Ikan teri jengki"
+          "title": "Lebar",
+          "value": "± 0,5–1 cm"
         },
         {
-          "title": "Asal",
-          "value": "Sumatera Barat atau Sulawesi"
+          "title": "Jumlah per 100 gram",
+          "value": "± 80-150 ekor"
         },
         {
-          "title": "Kemasan",
-          "value": "Kemasan Vakum food grade"
+          "title": "Komposisi",
+          "value": "100% teri jengki, garam kasar alami"
+        },
+        {
+          "title": "Kadar Air",
+          "value": "≤ 25%"
+        },
+        {
+          "title": "Kadar Garam",
+          "value": "± 15–25%"
         }
       ],
       "advantage": [
@@ -81,23 +97,31 @@
       "id": 3,
       "name": "Ikan Asin Kembung",
       "imgSrc": "https://i.imgur.com/YM2zh8f.png",
-      "description": "Ikan kembung yang diasinkan dan dikeringkan, memiliki cita rasa gurih-asin khas, sering dijadikan lauk pendamping nasi hangat",
+      "description": "Ikan Asin Kembung adalah ikan yang diawetkan secara tradisional dengan cara penggaraman untuk memperpanjang daya simpan dan memperkuat rasa. Dagingnya padat dan sedikit berminyak, sangat lezat saat digoreng atau dibakar. Sering disajikan dengan nasi, sambal, dan lalapan, ikan ini menjadi makanan rumahan yang digemari banyak keluarga Indonesia.",
       "specification": [
         {
-          "title": "Berat Bersih",
-          "value": "±300 gram"
+          "title": "Panjang",
+          "value": "± 15–25 cm"
         },
         {
-          "title": "Jenis Ikan",
-          "value": "Ikan kembung"
+          "title": "Berat Per Ekor",
+          "value": "± 100-200 gram"
         },
         {
-          "title": "Asal",
-          "value": "Sumatera atau Jawa Barat"
+          "title": "Jumlah per kilogram",
+          "value": "± 5-10 ekor"
         },
         {
-          "title": "Kemasan",
-          "value": "Kemasan Vakum food grade"
+          "title": "Komposisi",
+          "value": "100% ikan kembung, garam kasar alami"
+        },
+        {
+          "title": "Kadar Air",
+          "value": "≤ 25%"
+        },
+        {
+          "title": "Kadar Garam",
+          "value": "± 18–25%"
         }
       ],
       "advantage": [
@@ -110,23 +134,31 @@
       "id": 4,
       "name": "Ikan Asin Tenggiri",
       "imgSrc": "https://i.imgur.com/7AqEaQg.png",
-      "description": "Ikan tenggiri fillet yang diasinkan, bentuknya pipih, tebal, dan berwarna putih kekuningan. Memiliki rasa gurih kuat dan aroma khas.",
+      "description": "Ikan Asin Tenggiri adalah ikan asin premium yang dikenal dengan dagingnya yang padat, sedikit duri, dan rasa gurih yang kuat. Cocok untuk digoreng atau dijadikan bahan dasar dalam kuah dan sup, ikan ini digemari karena kualitas rasa dan teksturnya yang mantap. Sangat cocok untuk masakan rumahan maupun hidangan spesial.",
       "specification": [
         {
-          "title": "Berat Bersih",
-          "value": "±250–300 gram"
+          "title": "Panjang",
+          "value": "± 8–15 cm"
         },
         {
-          "title": "Jenis Ikan",
-          "value": "Ikan tenggiri"
+          "title": "Berat Per Ekor",
+          "value": "± 30-80 gr"
         },
         {
-          "title": "Asal",
-          "value": "Kalimantan / Sulawesi"
+          "title": "Jumlah per kilogram",
+          "value": "± 12-25 ekor"
         },
         {
-          "title": "Kemasan",
-          "value": "Kemasan Vakum food grade"
+          "title": "Komposisi",
+          "value": "100% ikan tenggiri segar, garam kasar alami"
+        },
+        {
+          "title": "Kadar Air",
+          "value": "≤ 25%"
+        },
+        {
+          "title": "Kadar Garam",
+          "value": "± 15–22%"
         }
       ],
       "advantage": [
@@ -139,23 +171,31 @@
       "id": 5,
       "name": "Ikan Asin Layur",
       "imgSrc": "https://i.imgur.com/galxaCf.png",
-      "description": "Ikan layur yang dikeringkan, berbentuk panjang dan ramping dengan warna perak keabu-abuan. Teksturnya kenyal dan gurih saat dimasak.",
+      "description": "Ikan Asin Layur dikenal dengan bentuk tubuhnya yang panjang, pipih, dan kulitnya yang mengilap. Rasanya asin dan gurih dengan tekstur yang lembut saat dimasak. Biasanya dipotong-potong dan digoreng atau dimasak dalam kuah berbumbu. Ikan ini memberikan rasa gurih mendalam pada hidangan tradisional dan digemari karena bentuk dan cita rasanya yang khas.",
       "specification": [
         {
-          "title": "Berat Bersih",
-          "value": "±250 gram"
+          "title": "Panjang",
+          "value": "± 25–60 cm"
         },
         {
-          "title": "Jenis Ikan",
-          "value": "Ikan layur"
+          "title": "Berat Per Ekor",
+          "value": "± 30-80 gram"
         },
         {
-          "title": "Asal",
-          "value": "Jawa Timur / Bali"
+          "title": "Jumlah per kilogram",
+          "value": "± 12-15 ekor"
         },
         {
-          "title": "Kemasan",
-          "value": "Kemasan Vakum food grade"
+          "title": "Komposisi",
+          "value": "100% ikan layur segar, garam kasar alami"
+        },
+        {
+          "title": "Kadar Air",
+          "value": "≤ 25%"
+        },
+        {
+          "title": "Kadar Garam",
+          "value": "± 15–25%"
         }
       ],
       "advantage": [
@@ -168,23 +208,31 @@
       "id": 6,
       "name": "Teri Kering Hitam",
       "imgSrc": "https://i.imgur.com/tqVCrCl.png",
-      "description": "Teri berwarna kehitaman, umumnya lebih kecil dari jengki tapi lebih besar dari teri nasi. Punya rasa asin yang kuat dan aroma khas laut.",
+      "description": "Ikan Asin Teri Hitam adalah jenis teri berukuran kecil dengan warna lebih gelap dan rasa yang lebih kuat dan khas. Sering dimasak bersama sambal atau hidangan pedas lainnya, teri ini memberikan rasa umami yang intens dan cocok disandingkan dengan nasi serta sayuran. Teksturnya yang kenyal dan rasa gurihnya membuatnya disukai oleh pecinta masakan berbumbu tajam.",
       "specification": [
         {
-          "title": "Berat Bersih",
-          "value": "±200–250 gram"
+          "title": "Panjang",
+          "value": "± 3–6 cm"
         },
         {
-          "title": "Jenis Ikan",
-          "value": "Teri hitam"
+          "title": "Bentuk",
+          "value": "Ramping, bentuk utuh (dengan atau tanpa kepala tergantung jenisnya)"
         },
         {
-          "title": "Asal",
-          "value": "Sulawesi / Maluku"
+          "title": "Jumlah per 100 gram",
+          "value": "± 200–300 ekor"
         },
         {
-          "title": "Kemasan",
-          "value": "Kemasan Vakum food grade"
+          "title": "Komposisi",
+          "value": "100% teri hitam segar, garam kasar alami"
+        },
+        {
+          "title": "Kadar Air",
+          "value": "≤ 25%"
+        },
+        {
+          "title": "Kadar Garam",
+          "value": "± 15–20%"
         }
       ],
       "advantage": [
@@ -197,23 +245,31 @@
       "id": 7,
       "name": "Ikan Asin Bilis",
       "imgSrc": "https://i.imgur.com/O9ks7Tx.png",
-      "description": "Ikan bilis kecil-kecil berwarna keperakan, biasa digunakan dalam masakan tradisional seperti sambal bilis atau nasi lemak",
+      "description": "Ikan Asin Bilis adalah ikan kecil dengan rasa asin yang khas, umum digunakan dalam masakan Malaysia, Indonesia, dan Filipina. Biasanya digoreng hingga keemasan dan renyah, serta disajikan bersama kacang tanah atau sambal. Teri ini memberikan tekstur renyah dan rasa gurih yang khas, cocok untuk melengkapi nasi lemak atau hidangan nasi campur.",
       "specification": [
         {
-          "title": "Berat Bersih",
-          "value": "±200 gram"
+          "title": "Panjang",
+          "value": "± 2–5 cm"
         },
         {
-          "title": "Jenis Ikan",
-          "value": "Ikan bilis"
+          "title": "Bentuk",
+          "value": "Kecil, ramping, utuh (kepala dan tulang biasanya masih menempel)"
         },
         {
-          "title": "Asal",
-          "value": "Sumatera Barat / Aceh"
+          "title": "Jumlah per 100 gram",
+          "value": "± 250-400 ekor"
         },
         {
-          "title": "Kemasan",
-          "value": "Kemasan Vakum food grade"
+          "title": "Komposisi",
+          "value": "100% ikan bilis segar, garam kasar alami"
+        },
+        {
+          "title": "Kadar Air",
+          "value": "≤ 25%"
+        },
+        {
+          "title": "Kadar Garam",
+          "value": "± 15–20%"
         }
       ],
       "advantage": [

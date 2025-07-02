@@ -20,24 +20,32 @@
     "product1": {
       "id": 1,
       "name": "Dried White Anchovy",
-      "imgSrc": "https://i.imgur.com/Qj5nQbT.png",
-      "description": "Tiny white anchovies with a crisp texture when fried. Commonly used in sambal (spicy relish), fried rice, or as a crunchy side dish.",
+      "imgSrc": "https://i.imgur.com/w38zsbT.png",
+      "description": "Dried White Anchovy is a type of small anchovy known for its light color, delicate texture, and subtle umami taste. Commonly used in Southeast Asian cuisine, it is ideal for frying until crispy and served as a topping for rice, vegetables, or soups. Its crunchy bite and savory flavor make it a favorite ingredient for enhancing everyday dishes.",
       "specification": [
         {
-          "title": "Net Weight",
-          "value": "±250 gram / pack"
+          "title": "Length",
+          "value": "1-3 cm"
         },
         {
-          "title": "Fish Type",
-          "value": "Small anchovy"
+          "title": "Width",
+          "value": "± 0.3–0.5 cm"
         },
         {
-          "title": "Origin",
-          "value": "Medan, North Sumatra"
+          "title": "Weight per 100 grams",
+          "value": "± 300–400 pieces"
         },
         {
-          "title": "Packaging",
-          "value": "Vakum pack food grade"
+          "title": "Maximum Moisture",
+          "value": "100% anchovy, natural coarse salt"
+        },
+        {
+          "title": "Composition",
+          "value": "≤ 25%"
+        },
+        {
+          "title": "Salt Content",
+          "value": "± 15–20%"
         }
       ],
       "advantage": [
@@ -50,23 +58,31 @@
       "id": 2,
       "name": "Dried Brown Anchovy",
       "imgSrc": "https://i.imgur.com/SwCMlpV.png",
-      "description": "Larger anchovies than Teri Nasi, white in color with a firmer texture. Commonly fried or cooked in spicy sauces.",
+      "description": "Dried Brown Anchovy is slightly larger and firmer than white anchovy, with a more pronounced savory flavor. It is a common choice in Indonesian home cooking, often fried or sautéed with chili and spices. Its rich taste and chewy texture make it suitable for robust dishes that need an extra layer of umami.",
       "specification": [
         {
-          "title": "Net Weight",
-          "value": "±250 gram / pack"
+          "title": "Length",
+          "value": "1-3 cm"
         },
         {
-          "title": "Fish Type",
-          "value": "Large anchovy"
+          "title": "Width",
+          "value": "± 0.3–0.5 cm"
         },
         {
-          "title": "Origin",
-          "value": "West Sumatra or Sulawesi"
+          "title": "Weight per 100 grams",
+          "value": "± 300–400 pieces"
         },
         {
-          "title": "Packaging",
-          "value": "Vakum pack food grade"
+          "title": "Maximum Moisture",
+          "value": "100% anchovy, natural coarse salt"
+        },
+        {
+          "title": "Composition",
+          "value": "≤ 25%"
+        },
+        {
+          "title": "Salt Content",
+          "value": "± 15–20%"
         }
       ],
       "advantage": [
@@ -79,23 +95,31 @@
       "id": 3,
       "name": "Salted Mackerel Fish",
       "imgSrc": "https://i.imgur.com/YM2zh8f.png",
-      "description": "Salted and dried mackerel with a savory-salty taste, often enjoyed fried or grilled alongside warm rice.",
+      "description": "Ikan Asin Kembung adalah ikan yang diawetkan secara tradisional dengan cara penggaraman untuk memperpanjang daya simpan dan memperkuat rasa. Dagingnya padat dan sedikit berminyak, sangat lezat saat digoreng atau dibakar. Sering disajikan dengan nasi, sambal, dan lalapan, ikan ini menjadi makanan rumahan yang digemari banyak keluarga Indonesia.",
       "specification": [
         {
-          "title": "Net Weight",
-          "value": "±300 gram"
+          "title": "Length",
+          "value": "± 15–25 cm"
         },
         {
-          "title": "Fish Type",
-          "value": "Mackerel"
+          "title": "Quantity per kg",
+          "value": "± 5–10 fish"
         },
         {
-          "title": "Origin",
-          "value": "West Java / Sumatra"
+          "title": "Weight per fish",
+          "value": "± 100–200 grams"
         },
         {
-          "title": "Packaging",
-          "value": "Vakum pack food grade"
+          "title": "Composition",
+          "value": "100% Fresh mackerel, natural coarse salt"
+        },
+        {
+          "title": "Water Content",
+          "value": "≤ 25%"
+        },
+        {
+          "title": "Salt Content",
+          "value": "± 18–25%"
         }
       ],
       "advantage": [
@@ -108,81 +132,109 @@
       "id": 4,
       "name": "Spanish Mackerel",
       "imgSrc": "https://i.imgur.com/7AqEaQg.png",
-      "description": "Thick slices of salted Spanish mackerel, pale yellow in color, with a rich umami taste and distinctive aroma.",
+      "description": "Salted Spanish Mackerel is a premium salted fish known for its firm meat, minimal bones, and savory richness. This fish is ideal for frying or as a flavor base in soups and stews. Its high-quality taste and meaty texture make it a popular choice for gourmet and home-style cooking alike.",
       "specification": [
         {
-          "title": "Net Weight",
-          "value": "±250–300 gram"
+          "title": "Length",
+          "value": "8-15 cm"
         },
         {
-          "title": "Fish Type",
-          "value": "Spanish mackerel"
+          "title": "Weight",
+          "value": "± 30-80 gr"
         },
         {
-          "title": "Origin",
-          "value": "Kalimantan / Sulawesi"
+          "title": "Weight per kilograms",
+          "value": "± 12-25 fish"
         },
         {
-          "title": "Packaging",
-          "value": "Vakum pack food grade"
+          "title": "Composition",
+          "value": "100% fresh mackerel seeds, natural coarse salt"
+        },
+        {
+          "title": "Maximum Moisture",
+          "value": "≤ 25%"
+        },
+        {
+          "title": "Salt Content",
+          "value": "± 15–22%"
         }
       ],
       "advantage": [
-        "Dense and firm meat",
-        "Great for stir-fries, sambal, or deep-fried",
-        "High in protein"
+        "Rich in omega-3",
+        "Naturally savory, perfect for simple meals",
+        "Long-lasting when stored in dry conditions"
       ]
     },
     "product5": {
       "id": 5,
       "name": "Hairtail Fish",
       "imgSrc": "https://i.imgur.com/galxaCf.png",
-      "description": "Long, slender dried ribbonfish with silvery gray color. Chewy and flavorful when cooked.",
+      "description": "Salted Hairtail Fish, known for its long, flat body and shiny silver skin, has a mild salty taste and soft texture when cooked. It is usually cut into pieces and fried or cooked in stews with herbs and spices. This fish adds a savory depth to traditional recipes and is enjoyed for its unique appearance and flavor.",
       "specification": [
         {
-          "title": "Net Weight",
-          "value": "±250 gram"
+          "title": "Length",
+          "value": "± 25–60 cm"
         },
         {
-          "title": "Fish Type",
-          "value": "Ribbonfish"
+          "title": "Weight per fish",
+          "value": "± 80–200 grams"
         },
         {
-          "title": "Origin",
-          "value": "East Java / Bali"
+          "title": "Weight per kilogram",
+          "value": "± 5–10 fish"
         },
         {
-          "title": "Packaging",
-          "value": "Vakum pack food grade"
+          "title": "Composition",
+          "value": "100% fresh ribbonfish, natural salt"
+        },
+        {
+          "title": "Composition",
+          "value": "≤ 25%"
+        },
+        {
+          "title": "Salt Content",
+          "value": "± 18–25%"
         }
       ],
       "advantage": [
-        "Soft texture and tasty flavor",
-        "Milder saltiness, suitable for kids",
-        "Rich in marine minerals"
+        "Rich in omega-3",
+        "Naturally savory, perfect for simple meals",
+        "Long-lasting when stored in dry conditions"
       ]
     },
     "product6": {
       "id": 6,
       "name": "Black Anchovies",
       "imgSrc": "https://i.imgur.com/tqVCrCl.png",
-      "description": "Small to medium-sized anchovy with a dark coloration and strong oceanic flavor. Often used in sambal, stir-fries, or mixed with vegetables.",
+      "description": "Black Anchovies are smaller anchovies with a darker color and a bold, distinctive flavor. Often used in spicy dishes or sambal preparations, they bring a strong umami kick that complements rice and vegetable-based meals. Their chewy texture and rich taste make them a popular choice for those who enjoy bold flavors.",
       "specification": [
         {
-          "title": "Net Weight",
-          "value": "±200–250 gram"
+          "title": "Length",
+          "value": "± 3–6 cm"
         },
         {
-          "title": "Fish Type",
-          "value": "Black anchovy"
+          "title": "Weight per 100 grams",
+          "value": "± 200–300 tails"
         },
         {
-          "title": "Origin",
-          "value": "Sulawesi / Maluku"
+          "title": "Weight per 100 grams",
+          "value": "± 300–400 pieces"
         },
         {
-          "title": "Packaging",
-          "value": "Vakum pack food grade"
+          "title": "Shape",
+          "value": "Slim, whole shape (with or without head depending on type)"
+        },
+        {
+          "title": "Composition",
+          "value": "100% fresh black anchovies, natural salt"
+        },
+        {
+          "title": "Water content",
+          "value": "≤ 25%"
+        },
+        {
+          "title": "Salt Content",
+          "value": "± 15–20%"
         }
       ],
       "advantage": [
@@ -195,23 +247,31 @@
       "id": 7,
       "name": "Salted Anchovies",
       "imgSrc": "https://i.imgur.com/O9ks7Tx.png",
-      "description": "Tiny, silver-colored bilis fish used in traditional dishes like sambal bilis or Malaysian-style nasi lemak.",
+      "description": "Salted Anchovies (Bilis) are tiny fish with a salty, punchy flavor commonly used in Malaysian, Indonesian, and Filipino cuisines. They are typically deep-fried until golden and crispy, often served with peanuts or sambal. These anchovies are a crunchy, flavorful addition to dishes like nasi lemak or mixed rice platters.",
       "specification": [
         {
-          "title": "Net Weight",
-          "value": "±200 gram"
+          "title": "Length",
+          "value": "± 2–5 cm"
         },
         {
-          "title": "Fish Type",
-          "value": "Ikan bilis"
+          "title": "Shape",
+          "value": "Small, slender, intact (head and bones are usually still attached)"
         },
         {
-          "title": "Origin",
-          "value": "West Sumatra / Aceh"
+          "title": "Weight per 100 grams",
+          "value": "± 250–400 pieces"
         },
         {
-          "title": "Packaging",
-          "value": "Vakum pack food grade"
+          "title": "Composition",
+          "value": "100% fresh anchovy, pure salt"
+        },
+        {
+          "title": "Water Content",
+          "value": "≤ 25%"
+        },
+        {
+          "title": "Salt Content",
+          "value": "± 15–20%"
         }
       ],
       "advantage": [
@@ -221,6 +281,7 @@
       ]
     }
   },
+
   "about": {
     "info": "A little about us",
     "title": "#BanggaProdukLokal",

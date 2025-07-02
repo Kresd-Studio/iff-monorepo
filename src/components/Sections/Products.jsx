@@ -16,7 +16,7 @@ export default function Products() {
   }
 
   const handlePDFView = () => {
-    const pdfUrl = '/assets/catalog.pdf';
+    const pdfUrl = '/assets/catalogue.pdf';
     window.open(pdfUrl, '_blank');
   };
 
